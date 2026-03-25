@@ -1,10 +1,10 @@
 #include <wx/wx.h>
 #include "MyProjectBase.h"
 
-class AppSomma : public m_frameCalcolatrice
+class AppSomma : public m_frameSomma
 {
 public:
-    AppSomma(wxWindow* parent) : m_frameCalcolatrice(parent) {}
+    AppSomma(wxWindow* parent) : m_frameSomma(parent) {}
 
 protected:
     void Somma(wxCommandEvent& event)
